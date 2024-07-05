@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-image: url("img/bg1.jpg"); */
+  min-height: 92vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+#search-button {
+  width: 2rem;
+  text-align: left;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+  position: relative;
+  right: 6%;
+  align-self: center;
+  
+}
+.searchInputBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  align-self: center;
+}
+
+.searchInputBox input{
+  width: 25rem;
+  text-align: left;
+  font-size: 1.3rem;
+  color: rgb(46, 46, 46);
+  border-radius: 0;
+  padding: 1rem 3rem 1rem 1rem;
+  background-color: #F5F5F5;
+  margin-left: 54px;
+  
+}
+
+
+.heading{
+  width: 100;
+  text-align: center;
+  margin: 3rem;
+  background-color: #c0dfec;
+  height: 3rem;
+}
+/* ################# map start ################## */
+.map-section{
+  width: 40vw;
+  height: 38rem;
+}
+.map-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 70vh;
+}
+#map {
+  height: 100%;
+  width: 100%;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* ################# map ends ################## */
+.weather-cont{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50vw;
+  height: 70vh;
+  background-size: cover;
+}
+
+.header h4 {
+  color: #da1e4e;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app-main {
+  min-height: 10vh;
+    width: 30vw;
+    /* margin: 50px auto; */
+    /* padding: 20px; */
+    text-align: center;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    border-radius: 15px;
+    /* background: #c0dfec; /* fallback for old browsers */
+  
+}
+.app-main > * {
+  margin-bottom: 20px;
+}
+.input-box {
+  width: 100%;
+  background: azure;
+  color: #e4603a;
+  font-weight: 500;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.weather-body {
+  color: #fff;
+  padding: 8rem 2rem;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: #eff1f3;
+  display: none;
+  /* background: linear-gradient(
+    to top,
+    #da1e4e,
+    #e4603a
+  ); */
+  background-color: rgba(255, 255, 255, 0.1); /* Orange color with transparency */
+  backdrop-filter: blur(10px); /* Glass effect */
+}
+.location-deatils {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+#weather-icon {
+  color: black;
+}
+
+
+
+
+
+
+/* %%%%%%%%%%%search################ */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+:root {
+  --body-font: "Rubik", sans-serif;
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --very-dark-gray: hsl(0, 0%, 17%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+
+/** Header Section **/
+
+.header-section {
+  position: relative;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1); /* Orange color with transparency */
+  backdrop-filter: blur(10px); /* Glass effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  height: 14rem;
+}
+
+.header-section h1 {
+  font-size: 3rem;
+  color: #EE4266;
+  margin-top: 1.9rem;
+  font-weight: 500;
+  word-spacing: 9px;
+}
+
+/** Search Form **/
+
+@media screen and (min-width: 1110px) {
+  /* .header-section {
+    height: 11rem;
+  } */
+  
+}
+
+@media screen and (max-width:800px){
+
+
+  .cont {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 2rem;
+}
+
+.app-main {
+  min-height: 10vh;
+  width: 100vw;
+  /* margin: 50px auto; */
+  /* padding: 20px; */
+  text-align: center;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  border-radius: 15px;
+}
+
+.weather-body {
+  color: #fff;
+  padding: 6rem 2rem;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: #eff1f3;
+  display: none;
+  /* background: linear-gradient( to top, #da1e4e, #e4603a ); */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  width: 80vw;
+}
+.map-section {
+  width: 85vw;
+  height: 38rem;
+}
+
+.weather-cont {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50vw;
+  height: 59vh;
+  background-size: cover;
+}
+}
